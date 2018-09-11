@@ -9,6 +9,7 @@
           <p>
             <a href="https://www.linkedin.com/in/kevin-janiky-56799611b/" target="_blank" class="btn btn-primary my-2">Linkedin</a>
             <a href="https://github.com/KevinJaniky/" target="_blank" class="btn btn-secondary my-2">GitHub</a>
+            <a href="/assets/media/cv-kevinjaniky.pdf" download="kevin-janiky.pdf" class="btn btn-info my-2">Télécharger mon CV</a>
           </p>
         </div>
       </section>

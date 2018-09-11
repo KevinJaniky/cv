@@ -170,17 +170,28 @@
 			<li><strong>Anglais :</strong> Technique</li>
 			<li><strong>Espagnol :</strong> Notion</li>
 		</ul>
+		<h3> Compétences techniques maitrisés</h3>
+		<div >
+
+		<?php
+			$tags = ['PHP','Drupal 7','Drupal 8','Laravel 5','AngularJS','Angular 6','Wordpress','Ruby on Rails 5','Apache','Solr','linux','SEO','Sass','Git',' Photoshop'];
+			foreach ($tags as $tag) {
+				echo '<span class="badge badge-info" style="    margin-right: 5px;">'.$tag.'</span>';
+			}
+		?>
+		</div>
 		<h3 class="card-title">Autres</h3>
 		<p> 
 			Après ma passion pour les pandas et les cookies. Je passe la plupart de mon temps a lire des articles sur tout ce qui touche le web , la gestion d'entreprise ou autre. 
 			Il m'arrive également de parlé seule devant une caméra pour partager mon savoir et faire des vidéos de formation. Quand je ne filme pas , j'écoute des vidéos et même si j'aime 
-			écouté le <a href="https://www.youtube.com/watch?v=q1095iL7tQM" target="_blank">bruit des vagues</a>, je trouve énormement de plaisir a écouté <a href="https://www.grafikart.fr/">grafikart</a> me parler d'elasticsearch . Pour terminé , malgré mon plus grand serieux quand je travail, il reste en moi une part d'enfant qui ne cesse de me surprendre chaque jour durant mes discussion avec mon ami "Panda" (voir en dessous).
+			écouté le <a href="https://www.youtube.com/watch?v=q1095iL7tQM" target="_blank">bruit des vagues</a>, je trouve énormement de plaisir a écouté <a href="https://www.grafikart.fr/" target="_blank">grafikart</a> me parler d'elasticsearch . Pour terminé , malgré mon plus grand serieux quand je travail, il reste en moi une part d'enfant qui ne cesse de me surprendre chaque jour durant mes discussion avec mon ami "Panda" (voir en dessous).
 
 		</p>
 		<div class="media">
-			<img class="mr-3" src="/assets/media/panda.jpg" alt="Panda 	" style="    width: 61px;">
+			<img class="mr-3" src="/assets/media/panda.jpg" alt="Panda 	" style=" width: 61px;">
 			<div class="media-body">
 				<h5 class="mt-0">Panda</h5>
+				<p>Grand fan de Bambou et de Smoothie </p>
 			</div>
 		</div>
 	</div>
