@@ -8,10 +8,7 @@ class HomeController
     */
   public function __construct()
   {
-    if (empty($_SESSION['id'])) {
-      header('location:index.php?action=login');
-      die();
-    }
+    
   }
 
   /*

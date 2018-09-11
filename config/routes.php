@@ -4,7 +4,7 @@
 if (isset($_GET['action'])) {
   $action = $_GET['action'];
   switch ($action) {
-    case 'login':
+   /* case 'login':
       $connexion = new ConnexionController();
       $connexion->index();
       break;
@@ -12,25 +12,22 @@ if (isset($_GET['action'])) {
       $connexion = new ConnexionController();
       $connexion->logout();
       break;
-    case 'maintenance':
-
-      break;
     case 'connect':
       $connexion = new ConnexionController();
       $connexion->connect($bootstrap->instance);
-      break;
+      break;*/
     case 'home':
       $home = new HomeController();
       $home->index();
       break;
     default:
-        $connexion = new ConnexionController();
-        $connexion->logout();
+        $home = new HomeController();
+        $home->index();
       break;
   }
 
 } else {
-    header('location:index.php?action=login');
+    header('location:home');
     die();
 }
 

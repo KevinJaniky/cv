@@ -15,7 +15,7 @@ class ConnexionController
         if (isset($_GET['action'])) {
             if ($_GET['action'] !== 'logout') {
                 if (!empty($_SESSION['id'])) {
-                    header('location:index.php?action=home');
+                    header('location:home');
                     die();
                 }
             }
