@@ -4,8 +4,9 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="Hello, Je suis Kevin ,  22 ans. La technologie ne cesse d'évoluer, mon but est évidemment de toujours être prêt face aux problèmatiques.">
+	<meta name="author" content="Kevin JANIKY">
+	<link rel="icon" href="/assets/media/address.jpg">
 	<title><?php echo APP_NAME ?> </title>
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<link type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" media="all"/>
