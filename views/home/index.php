@@ -1,7 +1,7 @@
 <?php ob_start(); ?>
 <ul class="nav nav-tabs" id="myTab" role="tablist">
 	<li class="nav-item">
-		<a class="nav-link active" id="home-tab" data-toggle="tab" href="#experiences" role="tab" aria-controls="experiences" aria-selected="true">Experiences</a>
+		<a class="nav-link active" id="home-tab" data-toggle="tab" href="#experiences" role="tab" aria-controls="experiences" aria-selected="true">Expériences</a>
 	</li>
 	<li class="nav-item">
 		<a class="nav-link" id="profile-tab" data-toggle="tab" href="#formations" role="tab" aria-controls="formations" aria-selected="false">Formations</a>
@@ -170,28 +170,27 @@
 			<li><strong>Anglais :</strong> Technique</li>
 			<li><strong>Espagnol :</strong> Notion</li>
 		</ul>
-		<h3> Compétences techniques maitrisés</h3>
-		<div >
+		<h3> Compétences techniques</h3>
+		<div>
 
-		<?php
+			<?php
 			$tags = ['PHP','Drupal 7','Drupal 8','Laravel 5','AngularJS','Angular 6','Wordpress','Ruby on Rails 5','Apache','Solr','linux','SEO','Sass','Git',' Photoshop'];
 			foreach ($tags as $tag) {
 				echo '<span class="badge badge-info" style="    margin-right: 5px;">'.$tag.'</span>';
 			}
-		?>
+			?>
 		</div>
 		<h3 class="card-title">Autres</h3>
 		<p> 
-			Après ma passion pour les pandas et les cookies. Je passe la plupart de mon temps a lire des articles sur tout ce qui touche le web , la gestion d'entreprise ou autre. 
-			Il m'arrive également de parlé seule devant une caméra pour partager mon savoir et faire des vidéos de formation. Quand je ne filme pas , j'écoute des vidéos et même si j'aime 
-			écouté le <a href="https://www.youtube.com/watch?v=q1095iL7tQM" target="_blank">bruit des vagues</a>, je trouve énormement de plaisir a écouté <a href="https://www.grafikart.fr/" target="_blank">grafikart</a> me parler d'elasticsearch . Pour terminé , malgré mon plus grand serieux quand je travail, il reste en moi une part d'enfant qui ne cesse de me surprendre chaque jour durant mes discussion avec mon ami "Panda" (voir en dessous).
-
+			Après ma passion pour les pandas et les cookies. Je passe la plupart de mon temps à lire des articles sur tout ce qui touche le web, la gestion d'entreprise ou autre. 
+			Il m'arrive également de parler seul devant une caméra pour partager mon savoir et tourner des vidéos de formation. Quand je ne filme pas, j'écoute et même si j'aime 
+			entendre le <a href="https://www.youtube.com/watch?v=q1095iL7tQM" target="_blank">son des vagues</a>, je trouve énormement de plaisir à écouter <a href="https://www.grafikart.fr/" target="_blank">grafikart</a> me parler d'elasticsearch . Pour terminer, malgré mon plus grand serieux quand je travaille, il reste en moi une part d'enfant qui ne cesse de me surprendre chaque jour durant mes discussions avec mon ami "Panda".
 		</p>
 		<div class="media">
 			<img class="mr-3" src="/assets/media/panda.jpg" alt="Panda 	" style=" width: 61px;">
 			<div class="media-body">
 				<h5 class="mt-0">Panda</h5>
-				<p>Grand fan de Bambou et de Smoothie </p>
+				<p>Grand fan de Bambou et de Smoothie</p>
 			</div>
 		</div>
 	</div>
@@ -199,22 +198,22 @@
 		
 		<div class="media">
 			<div style="overflow: hidden;
-    height: 353px;">
-				
+			height: 353px;">
+
 			<img class="mr-3" src="/assets/media/kevin.jpg" alt="Kevin janiky Developpeur Full Stack" style="width: 250px;">
-			</div>
-			<div class="media-body">
-				<ul>
-			<li><strong>Nom :</strong> JANIKY</li>
-			<li><strong>Prénom :</strong> Kevin</li>
-			<li><strong>Tél :</strong> 0679029172</li>
-			<li><strong>Email :</strong> kevin.janiky@gmail.com</li>
-			<li><strong>Permis :</strong> Oui</li>
-			<li><strong>Age :</strong> 22 ans</li>
-		</ul>
-			</div>
+		</div>
+		<div class="media-body">
+			<ul>
+				<li><strong>Nom :</strong> JANIKY</li>
+				<li><strong>Prénom :</strong> Kevin</li>
+				<li><strong>Tel :</strong> <a href="tel:0679029172">06 79 02 91 72</a></li>
+				<li><strong>Email :</strong> kevin.janiky@gmail.com</li>
+				<li><strong>Permis :</strong> Oui</li>
+				<li><strong>Age :</strong> 22 ans</li>
+			</ul>
 		</div>
 	</div>
+</div>
 
 </div>
 </div>
