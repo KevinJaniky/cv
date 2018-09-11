@@ -12,7 +12,7 @@ class Bootstrap
   public function __construct()
   {
     $this->_setEnvironnement();
-    $this->database();
+    //$this->database();
     $this->_maintenance();
   }
 
