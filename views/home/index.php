@@ -9,6 +9,12 @@
 	<li class="nav-item">
 		<a class="nav-link" id="contact-tab" data-toggle="tab" href="#projets" role="tab" aria-controls="projets" aria-selected="false">Projets</a>
 	</li>
+	<li class="nav-item">
+		<a class="nav-link" id="divers-tab" data-toggle="tab" href="#divers" role="tab" aria-controls="divers" aria-selected="false">Divers</a>
+	</li>
+	<li class="nav-item">
+		<a class="nav-link" id="personnelle-tab" data-toggle="tab" href="#personnelle" role="tab" aria-controls="personnelle" aria-selected="false">Informations Personnelles</a>
+	</li>
 </ul>
 <div class="tab-content" id="myTabContent">
 
@@ -31,7 +37,8 @@
 			<li>Relation Client</li>
 			<li>Gestion de projet</li>
 			<li>Prospection</li>
-		</ul></div>
+		</ul>
+	</div>
 	<div class="formations tab-pane fade" id="formations" role="tabpanel" aria-labelledby="formations-tab" style="padding: 15px">
 		<h3 class="card-title">Udemy</h3>
 		<ul>
@@ -63,7 +70,8 @@
 		<h4 class="text-muted" style="font-size: 15px">2014 - 2016</h4>
 		<ul>
 			<li>Developpement Aplication - Web - Réseaux - Sécurité informatique - Gestion de projet - Marketing</li>
-		</ul></div>	
+		</ul>
+	</div>	
 	<div class="projets tab-pane fade" id="projets" role="tabpanel" aria-labelledby="projets-tab" style="padding: 15px">
 		<h3 class="card-title">UNIS <span class="font-weight-light">Extranet - Site d’actualité</span>	</h3>
 		<ul>
@@ -156,8 +164,48 @@
 			<li>Développement Laravel 5</li>
 		</ul>
 	</div>
+	<div class="divers tab-pane fade" id="divers" role="tabpanel" aria-labelledby="divers-tab" style="padding: 15px">
+		<h3 class="card-title">Langues</h3>
+		<ul>
+			<li><strong>Anglais :</strong> Technique</li>
+			<li><strong>Espagnol :</strong> Notion</li>
+		</ul>
+		<h3 class="card-title">Autres</h3>
+		<p> 
+			Après ma passion pour les pandas et les cookies. Je passe la plupart de mon temps a lire des articles sur tout ce qui touche le web , la gestion d'entreprise ou autre. 
+			Il m'arrive également de parlé seule devant une caméra pour partager mon savoir et faire des vidéos de formation. Quand je ne filme pas , j'écoute des vidéos et même si j'aime 
+			écouté le <a href="https://www.youtube.com/watch?v=q1095iL7tQM" target="_blank">bruit des vagues</a>, je trouve énormement de plaisir a écouté <a href="https://www.grafikart.fr/">grafikart</a> me parler d'elasticsearch . Pour terminé , malgré mon plus grand serieux quand je travail, il reste en moi une part d'enfant qui ne cesse de me surprendre chaque jour durant mes discussion avec mon ami "Panda" (voir en dessous).
 
+		</p>
+		<div class="media">
+			<img class="mr-3" src="/assets/media/panda.jpg" alt="Panda 	" style="    width: 61px;">
+			<div class="media-body">
+				<h5 class="mt-0">Panda</h5>
+			</div>
+		</div>
+	</div>
+	<div class="personnelle tab-pane fade" id="personnelle" role="tabpanel" aria-labelledby="personnelle-tab" style="padding: 15px">
+		
+		<div class="media">
+			<div style="overflow: hidden;
+    height: 353px;">
+				
+			<img class="mr-3" src="/assets/media/kevin.jpg" alt="Kevin janiky Developpeur Full Stack" style="width: 250px;">
+			</div>
+			<div class="media-body">
+				<ul>
+			<li><strong>Nom :</strong> JANIKY</li>
+			<li><strong>Prénom :</strong> Kevin</li>
+			<li><strong>Tél :</strong> 0679029172</li>
+			<li><strong>Email :</strong> kevin.janiky@gmail.com</li>
+			<li><strong>Permis :</strong> Oui</li>
+			<li><strong>Age :</strong> 22 ans</li>
+		</ul>
+			</div>
+		</div>
+	</div>
 
+</div>
 </div>
 <?php
 $content = ob_get_clean();
